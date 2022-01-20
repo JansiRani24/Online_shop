@@ -57,7 +57,7 @@ public class Base {
 		public static void geturl(String URL) {
 			driver.get(URL);
 		}
-		public static void Takescreenshot() throws IOException {
+		public static void T() throws IOException {
 			TakesScreenshot ts = (TakesScreenshot) driver;
 			File sa = ts.getScreenshotAs(OutputType.FILE);
 			File f = new File("C:\\Users\\DELL\\eclipse-workspace\\SeleniumProject\\Screen\\jasmis.png");
@@ -118,7 +118,7 @@ public class Base {
 			ArrayList<String> li = new ArrayList<String>(windowHandles);
 			driver.switchTo().window(li.get(i));
 		}
-		public static void wclose() {
+		public static void c() {
 			driver.close();
 		}
 		public static void selectbyvalue(WebElement element, String value) {
